@@ -1,0 +1,42 @@
+{
+  "name": "@aiolosjs/jackbox",
+  "version": "0.1.0",
+  "description": "write your mdx demo like an artist. for now this package is for internal use only.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "father build",
+    "dev": "father build --esm babel --watch"
+  },
+  "keywords": [
+    "demo",
+    "playground"
+  ],
+  "author": "dafeng",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "dependencies": {
+    "antd": "^3.20.1",
+    "babel-plugin-import": "^1.12.0",
+    "lz-string": "^1.4.4",
+    "prismjs": "^1.17.1",
+    "react": "^16.10.2",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.8.6",
+    "react-simple-code-editor": "^0.10.0"
+  },
+  "devDependencies": {
+    "@types/lz-string": "^1.3.33",
+    "father": "^2.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiolosjs/jackbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiolosjs/jackbox/issues"
+  },
+  "homepage": "https://github.com/aiolosjs/jackbox#readme"
+}
