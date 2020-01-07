@@ -1,6 +1,6 @@
 {
   "name": "@aiolosjs/jackbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "write your mdx demo like an artist. for now this package is for internal use only.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

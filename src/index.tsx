@@ -140,7 +140,7 @@ import App from './demo';
 /** This is an auto-generated demo from @aiolosjs/components
  * if you think it is not working as expected,
  * please report the issue at
- * https://github.com/umijs/hooks/issues
+ * https://github.com/aiolosjs/components/issues
 **/
 ReactDOM.render(
   <App />,
@@ -179,7 +179,7 @@ import App from './demo';
 /** This is an auto-generated demo from @aiolosjs/components
  * if you think it is not working as expected,
  * please report the issue at
- * https://github.com/umijs/hooks/issues
+ * https://github.com/aiolosjs/components/issues
 **/
 ReactDOM.render(
   <App />,
@@ -200,7 +200,10 @@ ReactDOM.render(
         fileName: 'demo.jsx',
       };
     }
-    setParam(finaliseCSB(language === 'ts' ? tsData : jsData, { name: 'hooks-demo' }).parameters);
+    setParam(
+      finaliseCSB(language === 'ts' ? tsData : jsData, { name: 'aiolosjs/components-demo' })
+        .parameters,
+    );
   }, [props.tsCode, props.jsCode, language, code, dep]);
 
   return (
